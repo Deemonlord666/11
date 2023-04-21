@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(36, 34, 34);
+    background: url(https://images.unsplash.com/photo-1681896616404-6568bf13b022?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h2{
+    font-family: 'Rubik Pixels', cursive;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 15px solid pink;
+}
+.input{
+   background-color:transparent;
+   border-bottom: 1px solid rgb(31, 118, 188);
+   border-top:0px;
+   border-left:0px;
+   border-right:0px;
+   color:red;
+   box-shadow: inset -2px 2px 8px black;
+   padding: 10px;
+   border-radius: 5px;
+}
+.form{
+    width: 300px;
+    height: 500px;
+    backdrop-filter: blur(3px);
+    box-shadow: rgb(0, 0, 0) 5px 20px 30px -10px;
+    color: rgb(150, 150, 150);
+    text-align: center;
+    border-radius: 3px;
+    margin: auto;
+    border-image-source:url(border1.png);
+    border-image-slice: 120px;
+    border-top: 50px solid black;
+}
+.form:hover{
+    width: 320px;
+    height: 510px;
+    backdrop-filter: blur(3px);
+    box-shadow: rgb(0, 0, 0) 5px 20px 30px -10px;
+    color: rgb(150, 150, 150);
+    text-align: center;
+    border-radius: 3px;
+    margin: auto;
+    border-image-source:url(border1.png);
+    border-image-slice: 120px;
+    border-top: 50px solid black;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+
+.heading{
+    /* text-shadow: 5px 5px 10px solid white; */
+    color:white;
+    filter: drop-shadow(5px 5px 10px solid white);
+}
+
+.container{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: none;
+    margin: auto;
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:none;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+    border-radius: 15px;
+    
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.front{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+   backdrop-filter: blur(10px);
+   color:rgb(0, 0, 0);
+   text-align: center;
+   border-radius: 15px;
+}
+
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   backface-visibility: hidden;
+   backdrop-filter: blur(10px);
+   color:rgb(255, 255, 255);
+   transform: rotateY(180deg);
+   text-align: center;
+   border-radius: 15px;
+   margin-top: 10px;
+}
+img{
+    width:100%;
+    height:100%
+    opacity: 0.5;
+    background-color:none;
+}
+.main{
+    display: flex;
+    position: relative;
+
+}
+/* #whatsapp{
+    background-color: aquamarine ;
+    opacity: 0.5;
+} */
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+button{
+    background-color: green;
+    border-radius: 50%;
+    padding:20px;
+}

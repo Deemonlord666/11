@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: url(shark.jpg);
+    background-attachment: fixed;
+    height: auto;
+    /* filter: blur(10px); */
+    /* -webkit-filter: blur(10px); */
+}
+
+h1 {
+    color: white;
+    font-family: 'Berkshire Swash', cursive;}
+
+.hello {
+    
+    margin-top: 300px;
+    margin-left: 150px;
+    border: 50px solid;
+    width: 500px;
+    border-radius: 5px;
+    /* this is adding an image as border with css */
+    border-image-source: url(border.png);
+    border-image-slice: 150;
+    backdrop-filter: blur(10px);
+}
+.hello:hover{
+    box-shadow: 0px  5px 50px 5px rgb(250, 249, 249);
+    transition:1s;
+}
+
+p {
+    color: white;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 10px 5px 15px rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.navbar {
+    backdrop-filter: blur(2px);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    /* box-shadow: 10px 10px 30px rgb(0, 0, 0); */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    position: fixed;
+    top:0;
+}
+
+hr {
+    width: 5%;
+    justify-content: center;
+    margin: auto;
+    border-style: dotted;
+    border-color: gray;
+    border-width: 10px;
+    border-top: none;
+    background-color: red;
+
+}
+
+.box2 {
+    height: ;
+    width: 500px;
+    float: right;
+    margin-right: 100px;
+    border: 50px solid black;
+    border-image-source: url(border.png);
+    border-image-slice: 120;
+    backdrop-filter: blur(10px);
+    margin-top: 100px;
+
+
+}
+
+li {
+    list-style: lower-greek;
+    color: white;
+    font-size: 25px;
+}
+.bar{
+    float:right;
+    display:flex;
+    margin-top: 80px;
+    position: fixed;
+    left: auto;
+    right: 0px;
+    box-shadow: 0px 10px 20px ;
+    
+}
+.list{
+    list-style-type: none;
+    margin-right:20px;
+    color:#01333e;
+    text-shadow: 2px 2px 10px white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.list:hover{
+    transform: scale(1.7);
+    margin-left:25px;
+    margin-right:50px;
+    transition: 0.8s;
+    color:white;
+}
+.dog{
+    height: 50px;
+    float: left;
+  
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    color:rgb(53, 92, 104);
+}
